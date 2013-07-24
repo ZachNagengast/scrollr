@@ -1,6 +1,6 @@
 {
   "name": "Scrollr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scroll a whole page with one click.",
   "permissions": [
     "activeTab"
@@ -18,6 +18,6 @@
            "48": "scrollr-48.png",
           "128": "scrollr-128.png" 
   },
-  // "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "manifest_version": 2
 }
