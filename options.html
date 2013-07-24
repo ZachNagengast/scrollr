@@ -18,9 +18,13 @@
 	margin: 0;
 	padding: 0;
 }
+@font-face {
+    font-family: "Quicksand";
+    src: url("Quicksand-Light.otf");
+}
 
 #slider {
-	width: 400px;
+	width: 500px;
 	height: 17px;
 	position: relative;
 	margin: 50px auto;
@@ -36,8 +40,8 @@
 }
 
 #slider .bar {
-	width: 388px;
-	height: 5px;
+	width: 490px;
+	height: 7px;
 	background: #333;
 	position: relative;
 	top: -4px;
@@ -52,15 +56,18 @@
 	background: linear-gradient(left, #1d2e38 0%,#2b4254 50%,#2b4254 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2e38', endColorstr='#2b4254',GradientType=1 );	
 	
+
+
+	
 	-webkit-border-radius: 40px;
 	-moz-border-radius: 40px;
 	border-radius: 40px;
 }
 
 #slider .highlight {
-	height: 2px;
+	height: 4px;
 	position: absolute;
-	width: 388px;
+	width: 487px;
 	top: 6px;
 	left: 6px;
 		
@@ -144,8 +151,11 @@ input[type="range"]:hover ~ #rangevalue,input[type="range"]:active ~ #rangevalue
         padding-top: 5%;
       }
       .heading, .subheading {
-        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        font-family: "Quicksand" "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
         text-align: center;
+        padding-top: 1.5%;
+		color: #fff;	
       }
       p.lead {
         padding-top: 1.5%;
@@ -155,6 +165,10 @@ input[type="range"]:hover ~ #rangevalue,input[type="range"]:active ~ #rangevalue
       p {
         font-size: 18px;
         line-height: 24px;
+      }
+      h1 {
+        font-size: 150px;
+        line-height: 100px;
       }
 
       /* Video pitch and Action */
